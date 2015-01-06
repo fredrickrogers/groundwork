@@ -1,0 +1,26 @@
+{
+    "name": "groundwork"',
+    "version": "0.0.1",
+    "keywords: [
+        "css",
+        "framerwork",
+        "sass",
+        "mobile-first",
+        "responsive",
+        "front-end",
+        "web"
+    ],
+    "homepage": "",
+    "author": "Fredrick Rogers",
+    "bugs"  : {
+        "url": "http://github.com/fredrickrogers/groundwork/issues"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "https://github.com/twbs/bootstrap/blob/master/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fredrickrogers/groundwork.git"
+    },
+}
