@@ -40,11 +40,10 @@
  			core: {
  				options: {
  					style: 'expanded',
- 					banner: '<%= banner %>',
- 					compass: true
+ 					banner: '<%= banner %>'
  				},
  				files: {
- 					'sass/<%= pkg.name %>.css': '<%= sass/pkg.name %>.scss'
+ 					'sass/<%= pkg.name %>.css': 'sass/<%= pkg.name %>.scss'
  				}
  			}
  		}
