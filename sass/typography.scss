@@ -19,25 +19,52 @@ h4, h5, h6 {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: $font-size-h1;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: $font-size-h2;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: $font-size-h3;
 }
 
 h4 {
-	font-size: 21px;
+	font-size: $font-size-h4;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: $font-size-h5;
 }
 
 h6 {
-	font-size:14px;
+	font-size:$font-size-h6;
 }
+
+// Body Text
+p {
+	margin-top: $line-height-em / 2;
+	margin-bottom: $line-height-em / 2;
+}
+
+.headline {
+	font-size: floor($font-size-base * 1.25);
+	font-weight:bold;
+	margin-bottom: $line-height-em;
+	
+}
+
+ol, ul {
+	margin-top:0;
+	margin-bottom: ($line-height-em / 2);
+	
+	ol, ul {
+		margin-bottom:0;
+	}
+}
+
+li {
+	margin-bottom: ($line-height-em /2);
+}
+
